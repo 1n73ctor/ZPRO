@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.feature-items:hover p {
+  transform: scale(1.1);
+  color: #fff;
+  transition: all ease-in-out 0.5s;
+}
+
+p {
+  color: #fff;
+  transition: all ease-in-out 0.5s;
+}
