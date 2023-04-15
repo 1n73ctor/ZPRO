@@ -23,7 +23,13 @@ function Navabar() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Link href="/">
-                <Image src={"/logo2.png"} width={80} height={25} alt="logo" />
+                <Image
+                  src={"/logo2.png"}
+                  width={80}
+                  height={25}
+                  alt="logo"
+                  priority
+                />
               </Link>
               <div className="md:hidden">
                 <button
