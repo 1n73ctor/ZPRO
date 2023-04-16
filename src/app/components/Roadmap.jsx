@@ -20,7 +20,7 @@ function Roadmap() {
         </div>
       </div>
 
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] w-full min-w-[300px] gap-10 mx-auto">
+      <div className="grid grid-flow-cols md:grid-cols-2 lg:grid-cols-4 w-full min-w-[300px] gap-10 mx-auto">
         <div
           data-aos="flip-left"
           data-aos-duration="2000"
